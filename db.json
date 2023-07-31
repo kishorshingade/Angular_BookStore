@@ -1,0 +1,98 @@
+{
+  "books": [
+    {
+      "img": "https://m.media-amazon.com/images/I/41PgKgWVkDL._AC_UY218_.jpg",
+      "name": "Think and grow rich",
+      "author": "Nepolian hill",
+      "price": 200
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71GBwRkvchL._AC_UY218_.jpg",
+      "name": "Think Like a Monk",
+      "author": "Jay Shetty",
+      "price": 900
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41PgKgWVkDL._AC_UY218_.jpg",
+      "name": "Think and grow rich",
+      "author": "Nepolian hill",
+      "price": 200
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71GBwRkvchL._AC_UY218_.jpg",
+      "name": "Think Like a Monk",
+      "author": "Jay Shetty",
+      "price": 900
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71zytzrg6lL._AC_UY218_.jpg ",
+      "name": "5 Am Club",
+      "author": "Robin Sharma",
+      "price": 860
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71zytzrg6lL._AC_UY218_.jpg ",
+      "name": "5 Am Club",
+      "author": "Robin Sharma",
+      "price": 860
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41PgKgWVkDL._AC_UY218_.jpg",
+      "name": "Think and grow rich",
+      "author": "Nepolian hill",
+      "price": 200
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71GBwRkvchL._AC_UY218_.jpg",
+      "name": "Think Like a Monk",
+      "author": "Jay Shetty",
+      "price": 900
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71zytzrg6lL._AC_UY218_.jpg ",
+      "name": "5 Am Club",
+      "author": "Robin Sharma",
+      "price": 860
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41PgKgWVkDL._AC_UY218_.jpg",
+      "name": "Think and grow rich",
+      "author": "Nepolian hill",
+      "price": 200
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71GBwRkvchL._AC_UY218_.jpg",
+      "name": "Think Like a Monk",
+      "author": "Jay Shetty",
+      "price": 900
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71zytzrg6lL._AC_UY218_.jpg ",
+      "name": "5 Am Club",
+      "author": "Robin Sharma",
+      "price": 860
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "kishor",
+      "password": "kishor123"
+    },
+    {
+      "id": 2,
+      "name": "rob",
+      "password": "rob123"
+    },
+    {
+      "id": 3,
+      "name": "van",
+      "password": "van123"
+    },
+    {
+      "name": "k",
+      "password": "k123",
+      "id": 4
+    }
+  ]
+}

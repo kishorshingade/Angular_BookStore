@@ -1,0 +1,44 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    
+}
+.navbar-brand:hover{
+    color: aqua;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.main{
+    background: url('https://cdn.booktrust.org.uk/globalassets/images/news-and-features/blogs-2022/12.-december/2023-tv-and-movies-books-16x9.jpg?w=1200&h=675&quality=70&anchor=middlecenter');
+    background-size: cover;
+    background-position: 50%;
+    height: 70vh;
+    width: 100%;
+}
+.main h4{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}

@@ -1,0 +1,15 @@
+<div class="container">
+    <form>
+        <label >Enter Your Id</label>
+        <input type="text" name="user"  class="form-control" placeholder="enter Your Id" 
+        [(ngModel)]="user" required>
+
+        <label >Enter Your Password</label>
+        <input type="password" name="pass" class="form-control" placeholder="enter Your password"
+        [(ngModel)]="pass" required>
+        <button type="submit" class="btn btn-primary mt-2" (click)="logIn()">Log In</button>
+    </form>
+
+    <div><a href="" routerLink="/signup">Don't have Account?   Sign Up</a></div>
+
+</div>

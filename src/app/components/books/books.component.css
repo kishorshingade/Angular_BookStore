@@ -1,0 +1,27 @@
+.k{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+.k1{
+    height: 350px;
+    width: 250px;
+  text-align: center;
+  list-style-type: none;
+  border: 1px solid rgb(0,0,0,0.5);
+  padding: 20px;
+  margin: 45px;
+  border-radius: 10px;
+}
+.k1 img{
+    width: 150px;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+ } 
+.k1 img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+ } 
+

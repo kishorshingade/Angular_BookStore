@@ -1,0 +1,13 @@
+<div class="container">
+    <form #myForm="ngForm" (ngSubmit)="signUp(myForm.value)">
+        <label >Create Your Id</label>
+        <input type="text" name="name"  class="form-control" placeholder="Create Your Id" 
+     ngModel required>
+
+        <label >Create Your Password</label>
+        <input type="password" name="password" class="form-control" placeholder="enter Your password"
+        ngModel required>
+        <button type="submit" class="btn btn-primary mt-2" >Create Account</button>
+    </form>
+
+</div>

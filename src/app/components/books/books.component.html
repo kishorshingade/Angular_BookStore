@@ -1,0 +1,17 @@
+
+
+   <input class="px-2 search form-control mt-5"[(ngModel)]="term"  placeholder="Search for Books" style="width: 400px;">
+ 
+<ul class="k">
+   <ng-container *ngFor="let item of productList |filter:term | paginate:{ itemsPerPage: 6,currentPage:p}">
+ <li class="k1"> 
+    <img [src]="item.img" alt="item.name" width="100">
+    <p>Book Name : {{ item.name }} By {{ item.author }}</p>
+    <p>Price {{ item.price |currency:'INR' }}</p>
+    <p><button class="btn btn-primary" (click)="addToCart(item)" >Add To Cart</button></p>
+     
+ </li>
+   </ng-container>
+</ul> 
+<pagination-controls (pageChange)="p = $event"></pagination-controls>
+
